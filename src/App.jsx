@@ -7,6 +7,8 @@ import Cachorro from './components/Cachorro'
 import Contador from './components/contador'
 import ContadorAf from './components/ContadorAf'
 import UserInforForm from './components/UserInforForm' 
+import RenderConditional from './components/RenderConditional'
+import LoginButton from './components/LoginButton'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
     <Contador/>
     <ContadorAf/>
     <UserInforForm/>
+    <RenderConditional user = "deathdealer666"/>   
+    <LoginButton/>
     </>
   )
 }
