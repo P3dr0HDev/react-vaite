@@ -109,3 +109,12 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.botao-azul {
+  background-color: blue;
+  color: #FFFFFF;
+  padding: 15 px 32px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}

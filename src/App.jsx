@@ -9,6 +9,12 @@ import ContadorAf from './components/ContadorAf'
 import UserInforForm from './components/UserInforForm' 
 import RenderConditional from './components/RenderConditional'
 import LoginButton from './components/LoginButton'
+import NumberList from './components/NumberList'
+import BotaoEstilizado from './components/BotaoEstilizado'
+import BotaoAzul from './components/BotaoAzul'
+import Greetings from './components/Greetings'
+import MassacreCounter from './components/MassacreCounter'
+import Exercises from './components/TaskList'
 
 function App() {
   return (
@@ -23,6 +29,12 @@ function App() {
     <UserInforForm/>
     <RenderConditional user = "deathdealer666"/>   
     <LoginButton/>
+    <NumberList numbers={["teste", 'e', 1,2,3,4,5]}/>
+    <BotaoEstilizado/>
+    <BotaoAzul/>
+    <Greetings/>
+    <MassacreCounter/>
+    <Exercises/>
     </>
   )
 }
